@@ -1,0 +1,677 @@
+{
+  "parcelas": [
+    "c2-adultos",
+    "c3-geral",
+    "c4-adultos"
+  ],
+  "sementes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "fixos": {
+    "p_cruzamento": 0.8,
+    "max_geracoes": 1000,
+    "estagnacao": 150
+  },
+  "linhas": [
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 100,
+      "custo_medio": 1.9485162584222173,
+      "chamadas_media": 52223.333333333336,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.0602983354345747,
+          "custo_dp": 0.1217677432611222,
+          "chamadas_media": 75210.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.816699931008321,
+          "custo_dp": 0.06815159822370179,
+          "chamadas_media": 61340.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9685505088237558,
+          "custo_dp": 0.0,
+          "chamadas_media": 20120.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 200,
+      "custo_medio": 1.9528877126967104,
+      "chamadas_media": 90680.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.0283390610717253,
+          "custo_dp": 0.08539120921709474,
+          "chamadas_media": 137660.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.86177356819465,
+          "custo_dp": 0.11469708271838529,
+          "chamadas_media": 95440.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9685505088237558,
+          "custo_dp": 0.0,
+          "chamadas_media": 38940.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 200,
+      "custo_medio": 1.9550409603273822,
+      "chamadas_media": 86653.33333333333,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.054438398336463,
+          "custo_dp": 0.11750279184285861,
+          "chamadas_media": 136880.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.8421339738219271,
+          "custo_dp": 0.11373289150032058,
+          "chamadas_media": 87780.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9685505088237558,
+          "custo_dp": 0.0,
+          "chamadas_media": 35300.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 100,
+      "custo_medio": 1.9555530765734253,
+      "chamadas_media": 50166.666666666664,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.061712718250887,
+          "custo_dp": 0.13624369565277472,
+          "chamadas_media": 69590.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.8363960026456332,
+          "custo_dp": 0.07326997747905302,
+          "chamadas_media": 62330.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9685505088237558,
+          "custo_dp": 0.0,
+          "chamadas_media": 18580.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 200,
+      "custo_medio": 1.967664734542246,
+      "chamadas_media": 95446.66666666667,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.1518092826961173,
+          "custo_dp": 0.22265571117660693,
+          "chamadas_media": 142260.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.7826344121068647,
+          "custo_dp": 0.0918477142688651,
+          "chamadas_media": 108300.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9685505088237558,
+          "custo_dp": 0.0,
+          "chamadas_media": 35780.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 100,
+      "custo_medio": 1.9812243088610169,
+      "chamadas_media": 49270.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.2114173385769127,
+          "custo_dp": 0.26343962591840653,
+          "chamadas_media": 69800.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.7637050791823818,
+          "custo_dp": 0.07243002857187623,
+          "chamadas_media": 60030.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9685505088237558,
+          "custo_dp": 0.0,
+          "chamadas_media": 17980.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 50,
+      "custo_medio": 1.9919803872324058,
+      "chamadas_media": 27305.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.1290229550055786,
+          "custo_dp": 0.1862886112357434,
+          "chamadas_media": 37530.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.869207633856916,
+          "custo_dp": 0.12344157782315038,
+          "chamadas_media": 33420.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9777105728347226,
+          "custo_dp": 0.026378554308336154,
+          "chamadas_media": 10965.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 50,
+      "custo_medio": 1.9928517661162,
+      "chamadas_media": 28533.333333333332,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.1380137428748403,
+          "custo_dp": 0.19220687497029837,
+          "chamadas_media": 35515.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.862830982639037,
+          "custo_dp": 0.08770598330377877,
+          "chamadas_media": 37335.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.977710572834723,
+          "custo_dp": 0.02637855430833615,
+          "chamadas_media": 12750.0
+        }
+      }
+    },
+    {
+      "mutacao": "insercao",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 50,
+      "custo_medio": 2.002679503857182,
+      "chamadas_media": 27585.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.238457544143913,
+          "custo_dp": 0.2895573282496384,
+          "chamadas_media": 36040.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.8010304586038768,
+          "custo_dp": 0.05965609163104409,
+          "chamadas_media": 36535.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9685505088237558,
+          "custo_dp": 0.0,
+          "chamadas_media": 10180.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 100,
+      "custo_medio": 2.071001233149535,
+      "chamadas_media": 40380.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.2710418760373505,
+          "custo_dp": 0.29421693091056317,
+          "chamadas_media": 64140.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.9649939653081017,
+          "custo_dp": 0.16745447666023713,
+          "chamadas_media": 38170.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9769678581031531,
+          "custo_dp": 0.013148283100849317,
+          "chamadas_media": 18830.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 200,
+      "custo_medio": 2.0746714983507375,
+      "chamadas_media": 70240.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.208127343865656,
+          "custo_dp": 0.2468965835286134,
+          "chamadas_media": 98260.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.0311585237555514,
+          "custo_dp": 0.25755495423355873,
+          "chamadas_media": 76020.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9847286274310043,
+          "custo_dp": 0.02716764844189185,
+          "chamadas_media": 36440.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 200,
+      "custo_medio": 2.078536507913323,
+      "chamadas_media": 76126.66666666667,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.320314165295977,
+          "custo_dp": 0.35117112408619433,
+          "chamadas_media": 122100.0
+        },
+        "c3-geral": {
+          "custo_medio": 1.9421073703515137,
+          "custo_dp": 0.1788012573735375,
+          "chamadas_media": 72120.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.973187988092479,
+          "custo_dp": 0.007343865848983696,
+          "chamadas_media": 34160.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 100,
+      "custo_medio": 2.0805056219437805,
+      "chamadas_media": 42083.333333333336,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.249652786192305,
+          "custo_dp": 0.26859625624898104,
+          "chamadas_media": 64080.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.014896221535883,
+          "custo_dp": 0.20562993120966624,
+          "chamadas_media": 45240.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9769678581031527,
+          "custo_dp": 0.013148283100849317,
+          "chamadas_media": 16930.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 200,
+      "custo_medio": 2.093370071290767,
+      "chamadas_media": 65013.333333333336,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.2813376437745556,
+          "custo_dp": 0.30566920929412617,
+          "chamadas_media": 92960.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.0128544460013087,
+          "custo_dp": 0.2093719888942057,
+          "chamadas_media": 68800.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.985918124096436,
+          "custo_dp": 0.02914003541661186,
+          "chamadas_media": 33280.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 100,
+      "custo_medio": 2.136039427352402,
+      "chamadas_media": 44176.666666666664,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.315470442510473,
+          "custo_dp": 0.3574803558533516,
+          "chamadas_media": 64480.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.111433495770127,
+          "custo_dp": 0.29707557648076893,
+          "chamadas_media": 49970.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9812143437766068,
+          "custo_dp": 0.01623831294891428,
+          "chamadas_media": 18080.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 50,
+      "custo_medio": 2.1456858312490596,
+      "chamadas_media": 24200.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.347813986724896,
+          "custo_dp": 0.366831204953142,
+          "chamadas_media": 32985.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.0588122563210702,
+          "custo_dp": 0.21500136763907768,
+          "chamadas_media": 28115.0
+        },
+        "c4-adultos": {
+          "custo_medio": 2.0304312507012128,
+          "custo_dp": 0.07043466870326583,
+          "chamadas_media": 11500.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 50,
+      "custo_medio": 2.146843100420572,
+      "chamadas_media": 22420.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.366465065844691,
+          "custo_dp": 0.38539295655684497,
+          "chamadas_media": 31665.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.0518867231560605,
+          "custo_dp": 0.23885915375372158,
+          "chamadas_media": 26070.0
+        },
+        "c4-adultos": {
+          "custo_medio": 2.0221775122609644,
+          "custo_dp": 0.0728384877486449,
+          "chamadas_media": 9525.0
+        }
+      }
+    },
+    {
+      "mutacao": "troca",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 50,
+      "custo_medio": 2.1493375975802973,
+      "chamadas_media": 22795.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.3364191769155953,
+          "custo_dp": 0.3745473169076383,
+          "chamadas_media": 33960.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.094596412262015,
+          "custo_dp": 0.29847253470692664,
+          "chamadas_media": 24875.0
+        },
+        "c4-adultos": {
+          "custo_medio": 2.0169972035632817,
+          "custo_dp": 0.0519720199770524,
+          "chamadas_media": 9550.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 200,
+      "custo_medio": 2.188382369246948,
+      "chamadas_media": 68326.66666666667,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.5077326418902963,
+          "custo_dp": 0.5375447820796765,
+          "chamadas_media": 96260.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.0871829227076195,
+          "custo_dp": 0.3249409374959923,
+          "chamadas_media": 74200.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9702315431429291,
+          "custo_dp": 0.0016810343191732136,
+          "chamadas_media": 34520.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 200,
+      "custo_medio": 2.192912842224859,
+      "chamadas_media": 79746.66666666667,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.5317719332703845,
+          "custo_dp": 0.5570801430212049,
+          "chamadas_media": 126820.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.0732340061116634,
+          "custo_dp": 0.31661994639623386,
+          "chamadas_media": 78020.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9737325872925289,
+          "custo_dp": 0.0100683125141421,
+          "chamadas_media": 34400.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 200,
+      "custo_medio": 2.241603296409429,
+      "chamadas_media": 74326.66666666667,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.645196193024219,
+          "custo_dp": 0.66329660306882,
+          "chamadas_media": 102020.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.1036419568068134,
+          "custo_dp": 0.33462755982239706,
+          "chamadas_media": 84100.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9759717393972551,
+          "custo_dp": 0.010796988262315335,
+          "chamadas_media": 36860.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 100,
+      "custo_medio": 2.2905076325346303,
+      "chamadas_media": 39043.333333333336,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.6229969298691223,
+          "custo_dp": 0.6396097975878943,
+          "chamadas_media": 60530.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.27129233629264,
+          "custo_dp": 0.5437353410736836,
+          "chamadas_media": 38980.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9772336314421288,
+          "custo_dp": 0.013243916985081395,
+          "chamadas_media": 17620.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 100,
+      "custo_medio": 2.309174492442964,
+      "chamadas_media": 42976.666666666664,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.6611566557535697,
+          "custo_dp": 0.6875609598317896,
+          "chamadas_media": 61300.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.2884607764055227,
+          "custo_dp": 0.5146231810902873,
+          "chamadas_media": 47800.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9779060451697983,
+          "custo_dp": 0.012865947158958045,
+          "chamadas_media": 19830.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 100,
+      "custo_medio": 2.31599051461858,
+      "chamadas_media": 38976.666666666664,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.6895021119121707,
+          "custo_dp": 0.7204005712365189,
+          "chamadas_media": 53230.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.262233043845099,
+          "custo_dp": 0.4251076567784062,
+          "chamadas_media": 43420.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9962363880984708,
+          "custo_dp": 0.04183927874002522,
+          "chamadas_media": 20280.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.02,
+      "tamanho_populacao": 50,
+      "custo_medio": 2.3295839306298665,
+      "chamadas_media": 23373.333333333332,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.818911597843281,
+          "custo_dp": 0.843573934364547,
+          "chamadas_media": 33060.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.172595556715813,
+          "custo_dp": 0.3663717561637111,
+          "chamadas_media": 27745.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.9972446373305064,
+          "custo_dp": 0.03781066950048511,
+          "chamadas_media": 9315.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.01,
+      "tamanho_populacao": 50,
+      "custo_medio": 2.3605534341960857,
+      "chamadas_media": 22310.0,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.8048880052984884,
+          "custo_dp": 0.8227714956182192,
+          "chamadas_media": 28595.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.2849057577916336,
+          "custo_dp": 0.47291965797858737,
+          "chamadas_media": 29100.0
+        },
+        "c4-adultos": {
+          "custo_medio": 1.991866539498135,
+          "custo_dp": 0.04456846966058403,
+          "chamadas_media": 9235.0
+        }
+      }
+    },
+    {
+      "mutacao": "embaralhamento",
+      "p_mutacao": 0.005,
+      "tamanho_populacao": 50,
+      "custo_medio": 2.4141263032617872,
+      "chamadas_media": 22321.666666666668,
+      "por_parcela": {
+        "c2-adultos": {
+          "custo_medio": 2.79800317559151,
+          "custo_dp": 0.8065316301885788,
+          "chamadas_media": 29315.0
+        },
+        "c3-geral": {
+          "custo_medio": 2.416700872100178,
+          "custo_dp": 0.6100227265888417,
+          "chamadas_media": 27695.0
+        },
+        "c4-adultos": {
+          "custo_medio": 2.0276748620936744,
+          "custo_dp": 0.07597933509836446,
+          "chamadas_media": 9955.0
+        }
+      }
+    }
+  ],
+  "parametros_escolhidos": {
+    "tamanho_populacao": 100,
+    "p_cruzamento": 0.8,
+    "p_mutacao": 0.005,
+    "mutacao": "insercao",
+    "max_geracoes": 1000,
+    "estagnacao": 150
+  }
+}
