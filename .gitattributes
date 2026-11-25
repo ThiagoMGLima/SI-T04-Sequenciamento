@@ -1,0 +1,6 @@
+# Arquivos de terceiros e entradas: versionar byte a byte (os configs do VictSim3 usam CRLF)
+vendor/** -text
+dados/** -text
+sma/cfg/** -text
+# Pacote de entrega: binário, sem conversão de fim de linha
+entrega/** binary

@@ -1,0 +1,21 @@
+[project]
+name = "si-t04-sequenciamento"
+version = "0.1.0"
+description = "Tarefa 4 de Sistemas Inteligentes: atribuição dos agrupamentos aos socorristas e sequenciamento do socorro por algoritmo genético"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "pygame-ce>=2.5.8",
+    "typst>=0.15.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "sma", "vendor/victsim3"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

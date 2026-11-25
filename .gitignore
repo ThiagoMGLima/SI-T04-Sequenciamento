@@ -1,0 +1,9 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Material do professor (não publicar no repositório público)
+TAR4_sequenciamento_socorro.pdf
+Ref_Material-Professor/
