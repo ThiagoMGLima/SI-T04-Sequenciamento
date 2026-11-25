@@ -1,0 +1,460 @@
+{
+  "features": [
+    "x",
+    "y",
+    "sobr"
+  ],
+  "padronizacao": "StandardScaler",
+  "tabela_1": {
+    "1": {
+      "eps": 0.3,
+      "min_samples": 3,
+      "clusters": 35,
+      "pontos_ruido": 146,
+      "cobertura": 0.6439024390243903,
+      "silhueta_global": 0.363808550153436,
+      "score_final": 0.23425721278172465
+    },
+    "2": {
+      "eps": 0.4,
+      "min_samples": 6,
+      "clusters": 10,
+      "pontos_ruido": 177,
+      "cobertura": 0.5682926829268292,
+      "silhueta_global": 0.3081261331788741,
+      "score_final": 0.17510582690409185
+    },
+    "3": {
+      "eps": 0.525,
+      "min_samples": 8,
+      "clusters": 7,
+      "pontos_ruido": 84,
+      "cobertura": 0.7951219512195122,
+      "silhueta_global": 0.3848030301934818,
+      "score_final": 0.3059653362026221
+    }
+  },
+  "par_escolhida": 3,
+  "kmeans_mesmas_features": {
+    "3": {
+      "sse": 666.2416996183053,
+      "silhueta": 0.29600359601201764
+    },
+    "4": {
+      "sse": 525.3172335322738,
+      "silhueta": 0.32776174299024785
+    },
+    "5": {
+      "sse": 421.7959459941073,
+      "silhueta": 0.3332291695175012
+    },
+    "6": {
+      "sse": 348.3973725722403,
+      "silhueta": 0.3553869319571819
+    },
+    "7": {
+      "sse": 281.3420463016311,
+      "silhueta": 0.3755552825591664
+    },
+    "8": {
+      "sse": 243.25645428961067,
+      "silhueta": 0.3717394316734429
+    }
+  },
+  "forma_espaco": {
+    "raio_regiao": 4,
+    "min_regiao": 15,
+    "raio_ocupada": 3,
+    "regioes": [
+      {
+        "vitimas": 106,
+        "centro_xy": [
+          53.5188679245283,
+          44.886792452830186
+        ],
+        "celulas_no_fecho": 871,
+        "ocupacao_fecho": 0.6636050516647531,
+        "pontos_medios_vazios": 0.18025,
+        "referencia_convexa": {
+          "ocupacao_fecho": 0.9621125143513204,
+          "pontos_medios_vazios": 0.02055
+        }
+      },
+      {
+        "vitimas": 96,
+        "centro_xy": [
+          17.635416666666668,
+          62.114583333333336
+        ],
+        "celulas_no_fecho": 557,
+        "ocupacao_fecho": 0.9676840215439856,
+        "pontos_medios_vazios": 0.00675,
+        "referencia_convexa": {
+          "ocupacao_fecho": 0.9920107719928188,
+          "pontos_medios_vazios": 0.0029375
+        }
+      },
+      {
+        "vitimas": 57,
+        "centro_xy": [
+          18.157894736842106,
+          18.94736842105263
+        ],
+        "celulas_no_fecho": 500,
+        "ocupacao_fecho": 0.79,
+        "pontos_medios_vazios": 0.0935,
+        "referencia_convexa": {
+          "ocupacao_fecho": 0.9556999999999999,
+          "pontos_medios_vazios": 0.023200000000000002
+        }
+      },
+      {
+        "vitimas": 28,
+        "centro_xy": [
+          63.17857142857143,
+          7.535714285714286
+        ],
+        "celulas_no_fecho": 103,
+        "ocupacao_fecho": 0.9805825242718447,
+        "pontos_medios_vazios": 0.0,
+        "referencia_convexa": {
+          "ocupacao_fecho": 0.9995145631067961,
+          "pontos_medios_vazios": 0.0
+        }
+      }
+    ],
+    "vitimas_esparsas": 123,
+    "dist_8o_vizinho_celulas": {
+      "p10": 3.0,
+      "p50": 4.47213595499958,
+      "p90": 8.602325267042627
+    }
+  },
+  "clusters": {
+    "1": {
+      "vitimas": 38,
+      "sobr_media": 0.8291657894736842,
+      "tri": {
+        "verde": 11,
+        "amarelo": 26,
+        "vermelho": 1,
+        "preto": 0
+      },
+      "criancas": 14,
+      "idosos": 7,
+      "centroide_xy": [
+        13.736842105263158,
+        23.07894736842105
+      ],
+      "dist_base": 23.46939127608141,
+      "peso_start": 1.736842105263158,
+      "prioridade": 0.07400456555655292
+    },
+    "2": {
+      "vitimas": 108,
+      "sobr_media": 0.6748574074074072,
+      "tri": {
+        "verde": 34,
+        "amarelo": 29,
+        "vermelho": 28,
+        "preto": 17
+      },
+      "criancas": 30,
+      "idosos": 21,
+      "centroide_xy": [
+        19.27777777777778,
+        62.611111111111114
+      ],
+      "dist_base": 25.024555841447587,
+      "peso_start": 1.6296296296296295,
+      "prioridade": 0.06512122093014383
+    },
+    "3": {
+      "vitimas": 79,
+      "sobr_media": 0.8382607594936707,
+      "tri": {
+        "verde": 38,
+        "amarelo": 30,
+        "vermelho": 11,
+        "preto": 0
+      },
+      "criancas": 27,
+      "idosos": 12,
+      "centroide_xy": [
+        55.20253164556962,
+        48.10126582278481
+      ],
+      "dist_base": 26.472591661515867,
+      "peso_start": 1.6582278481012658,
+      "prioridade": 0.06263942228640536
+    },
+    "4": {
+      "vitimas": 21,
+      "sobr_media": 0.8397238095238097,
+      "tri": {
+        "verde": 7,
+        "amarelo": 14,
+        "vermelho": 0,
+        "preto": 0
+      },
+      "criancas": 8,
+      "idosos": 3,
+      "centroide_xy": [
+        58.04761904761905,
+        11.19047619047619
+      ],
+      "dist_base": 40.207680813146666,
+      "peso_start": 1.6666666666666667,
+      "prioridade": 0.04145144989615313
+    },
+    "5": {
+      "vitimas": 18,
+      "sobr_media": 0.29694444444444446,
+      "tri": {
+        "verde": 0,
+        "amarelo": 0,
+        "vermelho": 6,
+        "preto": 12
+      },
+      "criancas": 1,
+      "idosos": 5,
+      "centroide_xy": [
+        22.055555555555557,
+        12.444444444444445
+      ],
+      "dist_base": 28.677915536282843,
+      "peso_start": 1.0,
+      "prioridade": 0.0348700378427022
+    },
+    "6": {
+      "vitimas": 54,
+      "sobr_media": 0.2947314814814814,
+      "tri": {
+        "verde": 0,
+        "amarelo": 0,
+        "vermelho": 14,
+        "preto": 40
+      },
+      "criancas": 4,
+      "idosos": 26,
+      "centroide_xy": [
+        51.51851851851852,
+        46.75925925925926
+      ],
+      "dist_base": 22.555137440629938,
+      "peso_start": 0.7777777777777778,
+      "prioridade": 0.034483397843398614
+    },
+    "7": {
+      "vitimas": 8,
+      "sobr_media": 0.249575,
+      "tri": {
+        "verde": 0,
+        "amarelo": 0,
+        "vermelho": 0,
+        "preto": 8
+      },
+      "criancas": 0,
+      "idosos": 4,
+      "centroide_xy": [
+        61.5,
+        6.5
+      ],
+      "dist_base": 45.98369276167367,
+      "peso_start": 0.0,
+      "prioridade": 0.0
+    }
+  },
+  "ruido": {
+    "vitimas": 84,
+    "sobr_media": 0.5251095238095238,
+    "tri": {
+      "verde": 10,
+      "amarelo": 7,
+      "vermelho": 49,
+      "preto": 18
+    },
+    "criancas": 22,
+    "idosos": 22,
+    "centroide_xy": [
+      40.17857142857143,
+      31.773809523809526
+    ],
+    "dist_base": 13.087151182633198,
+    "peso_start": 2.0357142857142856,
+    "prioridade": 0.15555060511684943,
+    "ids": [
+      161,
+      408,
+      400,
+      204,
+      248,
+      337,
+      4,
+      306,
+      215,
+      201,
+      364,
+      350,
+      212,
+      374,
+      246,
+      175,
+      406,
+      127,
+      153,
+      195,
+      188,
+      225,
+      323,
+      173,
+      392,
+      333,
+      341,
+      397,
+      128,
+      42,
+      25,
+      194,
+      394,
+      366,
+      385,
+      24,
+      86,
+      344,
+      0,
+      214,
+      279,
+      168,
+      405,
+      10,
+      290,
+      219,
+      289,
+      269,
+      296,
+      363,
+      206,
+      200,
+      176,
+      404,
+      369,
+      169,
+      85,
+      187,
+      199,
+      107,
+      174,
+      5,
+      186,
+      38,
+      185,
+      117,
+      49,
+      139,
+      13,
+      209,
+      33,
+      19,
+      6,
+      376,
+      403,
+      210,
+      391,
+      360,
+      402,
+      18,
+      23,
+      251,
+      282,
+      401
+    ]
+  },
+  "atribuicao": {
+    "por_cluster": {
+      "1": {
+        "vitimas_adultos": 24,
+        "vitimas_geral": 36,
+        "ruido_anexado": 22,
+        "socorrista_adultos": 5,
+        "socorrista_geral": 2
+      },
+      "2": {
+        "vitimas_adultos": 78,
+        "vitimas_geral": 38,
+        "ruido_anexado": 8,
+        "socorrista_adultos": 3,
+        "socorrista_geral": 2
+      },
+      "3": {
+        "vitimas_adultos": 52,
+        "vitimas_geral": 46,
+        "ruido_anexado": 19,
+        "socorrista_adultos": 4,
+        "socorrista_geral": 1
+      },
+      "4": {
+        "vitimas_adultos": 13,
+        "vitimas_geral": 19,
+        "ruido_anexado": 11,
+        "socorrista_adultos": 4,
+        "socorrista_geral": 1
+      },
+      "5": {
+        "vitimas_adultos": 17,
+        "vitimas_geral": 11,
+        "ruido_anexado": 10,
+        "socorrista_adultos": 4,
+        "socorrista_geral": 2
+      },
+      "6": {
+        "vitimas_adultos": 50,
+        "vitimas_geral": 16,
+        "ruido_anexado": 12,
+        "socorrista_adultos": 5,
+        "socorrista_geral": 1
+      },
+      "7": {
+        "vitimas_adultos": 8,
+        "vitimas_geral": 2,
+        "ruido_anexado": 2,
+        "socorrista_adultos": 5,
+        "socorrista_geral": 1
+      }
+    },
+    "carga_por_socorrista": {
+      "1": 83,
+      "2": 85,
+      "3": 78,
+      "4": 82,
+      "5": 82
+    },
+    "fila_de_clusters": {
+      "1": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "2": [
+        1,
+        2,
+        5
+      ],
+      "3": [
+        2
+      ],
+      "4": [
+        3,
+        4,
+        5
+      ],
+      "5": [
+        1,
+        6,
+        7
+      ]
+    }
+  },
+  "criancas_total": 106
+}
